@@ -1,0 +1,25 @@
+{
+  "name": "tile-flooring",
+  "version": "0.0.1",
+  "description": "TileFlooring.js - You want a masonry-style layout? You got it.",
+  "main": "tile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terribleplan/TileFlooring.js.git"
+  },
+  "author": "Kegan Myers <kegan@keganmyers.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/terribleplan/TileFlooring.js/issues"
+  },
+  "homepage": "https://terribleplan.com/TileFlooring.js/",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-uglify": "^0.7.0"
+  }
+}
