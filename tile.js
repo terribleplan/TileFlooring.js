@@ -1,3 +1,5 @@
+/*! TileFlooring.js 0.0.1 | (c) 2015 Kegan Myers | https://github.com/terribleplan/TileFlooring.js/blob/master/LICENSE.md */
+
 var TileFloor = (function() {
     function elementSuicide(element) {
         if (element.parentElement !== null) {
