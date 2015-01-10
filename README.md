@@ -21,11 +21,15 @@ And now you have 5 columns that are each a maximum of 200px wide. If you only ha
 
 TileFlooring.js automatically responds to width changes through a combination of CSS, styles, and javascript, but only needs to run intensive javascript if the number of columns is changed, everything else is done by styles!
 
+Features
+========
+- You can now add elements to an existing floor, simply `floor.pushElement(someElement);`
+
 Limitations
 ===========
 TileFlooring does not (and will not) work on browsers that do not have proper HTML5 support, sorry. Not worth the trouble or cruft.
 
-TileFlooring.js is a young project and not all features are implemented yet. There are plans to add more options to the column layout, the ability to dynamically add elements without having to recreate the floor, the ability to actually destroy a floor, and more layout options.
+TileFlooring.js is a young project and not all features are implemented yet. There are plans to add more options to the column layout, the ability to actually destroy a floor, and more layout options.
 
 Contributing
 ============
