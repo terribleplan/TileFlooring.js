@@ -24,6 +24,7 @@ TileFlooring.js automatically responds to width changes through a combination of
 Features
 ========
 - You can now add elements to an existing floor, simply `floor.pushElement(someElement);`
+- You can tell a floor to rebuild itself by simply calling `floor.flow()`, this will not detect any element changes.
 
 Limitations
 ===========
