@@ -1,6 +1,6 @@
 {
   "name": "tile-flooring",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TileFlooring.js - You want a masonry-style layout? You got it.",
   "main": "tile.js",
   "scripts": {
