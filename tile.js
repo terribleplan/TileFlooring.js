@@ -116,8 +116,14 @@ var TileFloor = (function() {
         }
         this.masterElement.appendChild(this.containerElement);
         this.elements.forEach(function(newChild) {
-            shortest(_this.containers).addChild(newChild.element);
+            _this.pushElement(newChild);
         });
+    };
+
+    Tile.prototype.pushElement = function pushElement(element) {
+        var newChild = (element instanceof TileElement) ? element : new TileElement(element);
+        newChild.removeSelf();
+        shortest(this.containers).addChild(newChild.element);
     };
 
     Tile.prototype.determineColumns = function determineColumns() {
