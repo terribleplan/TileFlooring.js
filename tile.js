@@ -1,6 +1,18 @@
-/*! TileFlooring.js 0.0.1 | (c) 2015 Kegan Myers | https://terribleplan.com/TileFlooring.js/LICENSE.md */
+/*! TileFlooring.js 0.0.3 | (c) 2015 Kegan Myers | https://terribleplan.com/TileFlooring.js/LICENSE.md */
 
-var TileFloor = (function() {
+(function (window, document, undefined, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define(function() {
+        return factory(window, document, undefined);
+    });
+  }
+  else if (typeof exports === 'object') {
+    module.exports = factory;
+  }
+  else {
+    window.TileFloor = factory(window, document, undefined);
+  }
+})(window, document, undefined, function (window, document, undefined) {
     function elementSuicide(element) {
         if (element.parentElement !== null) {
             element.parentElement.removeChild(element);
@@ -131,4 +143,4 @@ var TileFloor = (function() {
     };
 
     return Tile;
-})();
+});
